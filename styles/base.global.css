@@ -1,0 +1,57 @@
+/* colors */
+:root {
+  --primary: #93d8ff;
+  --secondary: #00649c;
+}
+/* importing fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #1f1e1e;
+  border-radius: 1rem;
+} */
+
+.fas {
+  color: var(--secondary);
+}
+
+/* //scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input {
+  padding: 0.8rem 1.3rem;
+  border: 0.2px solid var(--primary);
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+input:focus {
+  outline: solid 1px var(--secondary);
+}

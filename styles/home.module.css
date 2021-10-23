@@ -1,0 +1,67 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.navbar {
+  width: 20%;
+  padding: 4rem 0;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainarea {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /* border: 1px solid green; */
+}
+
+.inprogress {
+  width: 40vw;
+  height: 70vh;
+
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inprogresshead {
+  margin: 1rem 7.5rem;
+  align-self: flex-start;
+}
+.cardarea {
+  height: inherit;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.completed {
+  width: 40vw;
+  height: 70vh;
+  overflow-y: scroll;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addtasksection {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

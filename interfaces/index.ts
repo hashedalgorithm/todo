@@ -5,6 +5,19 @@
 // import { User } from 'path/to/interfaces';
 
 export type User = {
-  id: number
-  name: string
-}
+  id: number;
+  name: string;
+};
+
+export type NavbarItemType = {
+  id: number;
+  icon: string;
+  title: string;
+};
+
+export type Tasks = {
+  id: string;
+  tasktitle: string;
+  time: string;
+  date: string;
+};
